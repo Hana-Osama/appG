@@ -13,9 +13,7 @@ class SelectScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-              onPressed: () {
-                // Handle selection
-              },
+              onPressed: () {},
               child: const Text('Selected'),
             ),
           ],
