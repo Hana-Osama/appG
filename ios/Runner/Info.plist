@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>NSCameraUsageDescription</key>
+    <string>Need camera access to detect burn</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Need photo access to upload images</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Allow camera access to capture burn images</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Allow photo library access to select burn images</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Your description for using location</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>

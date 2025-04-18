@@ -22,4 +22,9 @@ plugins {
     id "org.jetbrains.kotlin.android" version "1.8.22" apply false
 }
 
-include ":app"
+include ':app'
+
+// If you're embedding a Flutter module, this should point to the Flutter module's directory
+include ':flutter'
+
+project(':flutter').projectDir = new File('..', 'flutter')  // Adjust the path if necessary
